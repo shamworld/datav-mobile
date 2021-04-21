@@ -1,30 +1,32 @@
+<!--
+ * @message: 描述
+ * @Author: Roy
+ * @Email: @163.com
+ * @Github: @163.com
+ * @Date: 2021-04-20 18:00:54
+ * @LastEditors: Roy
+ * @LastEditTime: 2021-04-20 19:34:33
+ * @Deprecated: 否
+ * @FilePath: /datav-mobile/src/App.vue
+-->
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="app">
+    <router-view />
   </div>
-  <router-view/>
 </template>
-
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-
-#nav {
-  padding: 30px;
-}
-
-#nav a {
-  font-weight: bold;
-  color: #2c3e50;
-}
-
-#nav a.router-link-exact-active {
-  color: #42b983;
-}
+  body {
+    height: 100%;
+    background-color: rgba(13, 42, 67, 0);
+    background-image: url("./assets/05a21107c6f5201f3c748efdc07383dd.jpg");
+    background-size: 100%;
+  }
+</style>
+<style>
+ #app {
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 </style>
